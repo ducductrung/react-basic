@@ -48,7 +48,7 @@ class App extends Component {
     const { elements } = this.state;
     elements.push({
       id: randomId(),
-      name: `Player ${elements.length + 1}`,
+      name: `New Player`,
       initiative: -100,
       hitpoint: -100
     });
