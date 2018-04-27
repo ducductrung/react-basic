@@ -95,7 +95,7 @@ class App extends Component {
     return (
       <div>
         <div>
-          <button onClick={this.addCard}>Add</button>
+          <button className='button' onClick={this.addCard}>Add</button>
         </div>
         {elements.map(element =>
           <div>
